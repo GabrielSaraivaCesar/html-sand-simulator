@@ -1,0 +1,28 @@
+{
+  "name": "sand-sim",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielSaraivaCesar/html-sand-simulator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabrielSaraivaCesar/html-sand-simulator/issues"
+  },
+  "homepage": "https://github.com/GabrielSaraivaCesar/html-sand-simulator#readme",
+  "dependencies": {
+    "2d_arts_js": "^1.0.0",
+    "sand-sim": "file:"
+  },
+  "devDependencies": {
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4"
+  }
+}

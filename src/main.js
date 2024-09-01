@@ -1,4 +1,4 @@
-import art from '../2d-arts-js/src/index.js';
+import art from '2d_arts_js';
 
 const scene = new art.Scene(document.getElementById('canvas'));
 scene.setFps(120);
