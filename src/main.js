@@ -39,16 +39,8 @@ function initCanvasGrid() {
 }
 
 function drawBackground() {
-    let gridSquareSize = getGridSquareSize();
     scene.rect(0, 0, 'black', scene.canvas.width, scene.canvas.height);
-    return
-    canvasGrid.forEach((row, rowIdx) => {
-        let y = rowIdx * gridSquareSize;
-        row.forEach((_, colIdx) => {
-            let x = colIdx * gridSquareSize;
-            scene.strokeRect(x, y, 'black', gridSquareSize, gridSquareSize, 1);
-        });
-    });
+    scene.fillText(50, 50, 'Click and drag to draw', '#444', '24px');
 }
 
 function drawSand() {
